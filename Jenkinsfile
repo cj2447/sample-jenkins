@@ -1,5 +1,5 @@
 pipeline {
-    agent "node-1"
+    agent any
     tools {
             jfrog 'jfrog-cli'
         }
