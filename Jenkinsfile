@@ -36,7 +36,7 @@ pipeline {
                 
                 // Create a file and upload it to a repository named 'my-repo' in Artifactory
                 sh 'touch test-file'
-                jf 'rt u test-file my-repo/'
+                jf 'rt u test-file miggyrepo/'
                 
                 // Publish the build-info to Artifactory.
                 jf 'rt bp'
