@@ -1,8 +1,8 @@
 pipeline {
     agent any
-    tools {
-            jfrog 'jfrog-cli'
-        }
+//     tools {
+//             jfrog 'jfrog-cli'
+//         }
     environment {
         JFROG_CLI_BUILD_NAME = "my-build-name"
         JFROG_CLI_BUILD_NUMBER = "18"
