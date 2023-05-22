@@ -40,7 +40,7 @@ pipeline {
                 
 //                 // Publish the build-info to Artifactory.
 //                 jf 'rt bp'
-            }
-        }
+//             }
+//         }
     }
 }
