@@ -5,7 +5,7 @@ pipeline {
 //         }
     environment {
         JFROG_CLI_BUILD_NAME = "my-build-name"
-        JFROG_CLI_BUILD_NUMBER = "18"
+        JFROG_CLI_BUILD_NUMBER = "17"
     }
     stages {  
         stage('Build') {
