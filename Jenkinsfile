@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testing.d\\sample'
+                echo 'Testing.d\\sadmple'
             }
         }
         stage('Deploy') {
